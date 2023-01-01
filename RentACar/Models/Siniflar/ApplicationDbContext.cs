@@ -8,7 +8,7 @@ namespace RentCar.Models.Siniflar
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-HRF5TMQ;database=AracDb; integrated security=true;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("server=DILCE;database=AracDb; integrated security=true;TrustServerCertificate=True;");
         }
 
         public DbSet<Arac> aracs { get; set; }
