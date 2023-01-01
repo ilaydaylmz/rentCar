@@ -20,6 +20,9 @@ namespace RentCar.Controllers
         {
             return View();
         }
-
+        public IActionResult Ingilizce()
+        {
+            return View();
+        }
     }
 }
